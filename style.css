@@ -1,0 +1,45 @@
+.container{
+    width:100%;
+    height:100%;
+    background-color:rgb(227, 218, 235);
+}
+.header{
+    width:100%;
+    height:20%;
+    background-color:cadetblue;
+}
+.header h1{
+    color:beige;
+    font-size:50px;
+    text-align:center;
+    padding:25px;
+}
+li{
+    list-style-type:none;
+    float:left;
+
+}
+a{
+    color:aliceblue;
+    font-size:40;
+    padding:70px;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
+.menubar{
+    width:100%;
+    height:10%;
+    background-color:burlywood;
+}
+.maincontent{
+    width:100%;
+    height:60%;
+    background-color:aquamarine;
+}
+.footer{
+    width:100%;
+    height:10%;
+    background-color:cadetblue;
+}
