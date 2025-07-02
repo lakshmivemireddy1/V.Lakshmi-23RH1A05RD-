@@ -1,0 +1,32 @@
+
+<html>
+    <body>
+        <input type="text" id="num1" placeHolder="Enter number 1"><br/><br/>
+        <input type="text" id="num2" placeHolder="Enter number 2"><br/><br/>
+        <p id="op">result will be here</p>
+        <button onclick="add()">Add</button><br/><br/>
+        <button onclick="sub()">Sub</button><br/><br/>
+        <button onclick="mul()">Mul</button><br/><br/>
+
+        <script>
+            function add(){
+                const num1=document.getElementById("num1").value;
+                const num2=document.getElementById("num2").value;
+                const op=parseInt(num1)+parseInt(num2);
+                document.getElementById("op").innerHTML=op;
+            }
+            function sub(){
+                const num1=document.getElementById("num1").value;
+                const num2=document.getElementById("num2").value;
+                const op=parseInt(num1)-parseInt(num2);
+                document.getElementById("op").innerHTML=op;
+            }
+            function mul(){
+                const num1=document.getElementById("num1").value;
+                const num2=document.getElementById("num2").value;
+                const op=parseInt(num1)*parseInt(num2);
+                document.getElementById("op").innerHTML=op;
+            }
+        </script>
+    </body>
+</html>
